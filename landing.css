@@ -1,0 +1,113 @@
+
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+.logo h1{
+    text-align: center;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+}
+
+/* Previous CSS rules remain the same */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+ .category{
+    height: 50px;
+    width: 100%;
+    background-color: #ccc;
+    color: white;
+}
+.dropdown ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+.card-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+}
